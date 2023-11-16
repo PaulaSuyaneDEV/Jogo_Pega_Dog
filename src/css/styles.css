@@ -10,7 +10,7 @@ body {
 h2 {
     text-align: center;
     padding: 5px;
-    font-size: 28px;
+    font-size: 25px;
     color: #040157;
 }
 .navbar{
@@ -18,7 +18,7 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    height: 18vh;
+    height: 16vh;
     background: linear-gradient(to right, #ffffff, #ffffff);
     border-bottom: 20px solid #040157;
 
@@ -31,10 +31,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .square {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 180px;
     border: 1px solid #040157;
     background-color: white;
 }
@@ -43,4 +44,29 @@ h2 {
     background-size: cover;
     background-position: center center;
    
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    display: inline-flex;
+}
+.box-jogadas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .square {
+        height: 100px;
+        width: 100px;
+    }
 }
